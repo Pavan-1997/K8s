@@ -43,11 +43,6 @@ flux create helmrelease starboard-operator --chart starboard-operator \
   --namespace starboard-system
 ```
 
-
-helm install starboard-operator aqua/starboard-operator 
-  --namespace starboard-system1
-  --create-namespace 
-  --set="trivy.ignoreUnfixed=true" 
-  --version 0.10.3
-
+---
+NEED TO CONTINUE FROM 24:20
 
