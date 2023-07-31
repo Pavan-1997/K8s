@@ -30,16 +30,18 @@ flux bootstrap github \
 ```
 
 6. Installing the Starboard Helm Chart through Flux (This pulls Starboard from Chart Registry and deploys in starboard-system namespace) (Vulnerability Reports are created by Starboard )
-
+```
 kubectl create ns starboard-system
-
+```
+```
 flux create source helm starboard-operator --url https://aquasecurity.github.io/helm-charts --namespace starboard-system
-
+```
+```
 flux create helmrelease starboard-operator --chart starboard-operator \
   --source HelmRepository/starboard-operator \
   --chart-version 0.10.3 \
   --namespace starboard-system
-
+```
 
 
 helm install starboard-operator aqua/starboard-operator 
