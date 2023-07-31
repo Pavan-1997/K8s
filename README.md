@@ -9,15 +9,15 @@ curl -s https://fluxcd.io/install.sh | sudo bash
 ```
 
 3. Export GitHub details 
-
+```
 export GITHUB_TOKEN=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
 export GITHUB_USER=sqlonlinux
-
+```
 
 4. Pre-check for Flux to run 
-
+```
 flux check --pre
-
+```
 
 5. Setup Flux Bootstrap 
 
