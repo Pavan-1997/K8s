@@ -20,14 +20,14 @@ flux check --pre
 ```
 
 5. Setup Flux Bootstrap 
-
+```
 flux bootstrap github \
   --owner=$GITHUB_USER \
   --repository=flux-example \
   --branch=main \
   --path=./clusters/my-cluster \
   --personal
-
+```
 
 6. Installing the Starboard Helm Chart through Flux (This pulls Starboard from Chart Registry and deploys in starboard-system namespace) (Vulnerability Reports are created by Starboard )
 
