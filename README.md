@@ -4,9 +4,9 @@
 
 
 2. Install Flux CI
-
+```
 curl -s https://fluxcd.io/install.sh | sudo bash
-
+```
 
 3. Export GitHub details 
 
