@@ -1,4 +1,4 @@
-# K8s FluxCD
+# K8s FluxCD 
 
 1. Start a Minikube cluster
 
