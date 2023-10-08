@@ -1,6 +1,6 @@
 # K8s FluxCD   
      
-1. Start a Minikube cluster
+1. Start a Minikube cluster 
           
          
 2. Install Flux CI
